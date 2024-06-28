@@ -1,5 +1,4 @@
 import { WormholeConnectPartialTheme } from "@wormhole-foundation/wormhole-connect";
-import { PaletteColor } from "@wormhole-foundation/wormhole-connect/lib/src/theme";
 
 const customized: WormholeConnectPartialTheme = {
     mode: "light",
