@@ -3,7 +3,7 @@ import './App.css';
 import WormholeConnect, {
   WormholeConnectConfig,
 } from "@wormhole-foundation/wormhole-connect";
-
+import theme from "./theme/theme";
 const config: WormholeConnectConfig = {
   network: "mainnet",
   chains: ["solana", "osmosis"],
@@ -44,7 +44,7 @@ const config: WormholeConnectConfig = {
 function App() {
   return (
     <div className="App">
-      <WormholeConnect config={config} />
+      <WormholeConnect config={config} theme={theme} />
     </div>
   );
 }
