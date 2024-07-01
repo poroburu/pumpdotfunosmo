@@ -36,7 +36,7 @@ const customized: WormholeConnectPartialTheme = {
     },
     divider: "#009688",
     background: {
-        default: "#a7ffeb",
+        default: "#a7ffeb00",
     },
     text: {
         secondary: "#004d40",
