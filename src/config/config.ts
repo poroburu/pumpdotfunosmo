@@ -4,7 +4,7 @@ const config: WormholeConnectConfig = {
     network: "mainnet",
     chains: ["solana", "osmosis"],
     rpcs: {
-        solana: "https://solana-mainnet.core.chainstack.com/b6cc78ce81eaaaf59554e341f60bb6b3",
+        solana: process.env.REACT_APP_SOLANA_RPC,
         osmosis: "https://rpc.osmosis.zone:443",
         wormchain: "https://wormchain-rpc.polkachu.com/",
     },
