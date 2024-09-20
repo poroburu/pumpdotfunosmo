@@ -9,7 +9,7 @@ const config: WormholeConnectConfig = {
         wormchain: "https://wormchain-rpc.polkachu.com/",
     },
 
-    tokens: ["PBJ", "SOL", "WSOL"],
+    tokens: ["PBJ", "SOL", "WSOL", "UWU"],
     tokensConfig: {
         PBJ: {
             key: "PBJ",
@@ -21,6 +21,20 @@ const config: WormholeConnectConfig = {
             },
             coinGeckoId: "",
             icon: "https://ipfs.io/ipfs/QmY6bPur4fJTpzbF3FHh7Xq1bpipi2QFGGyk3QKjEtCfQL",
+            decimals: {
+                default: 6,
+            },
+        },
+        UWU: {
+            key: "UWU",
+            symbol: "UWU",
+            nativeChain: "solana",
+            tokenId: {
+                chain: "solana",
+                address: "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+            },
+            coinGeckoId: "unicorn-3",
+            icon: "https://i.degencdn.com/ipfs/bafkreibivgcck3ig7bo4edrykpmsds2a7424oys2ldyj2vief6b5nayq7q",
             decimals: {
                 default: 6,
             },
